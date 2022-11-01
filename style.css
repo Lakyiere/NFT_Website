@@ -1,3 +1,7 @@
 body{
     background-image: linear-gradient(to left bottom, #1e0c39, #2d1146, #3c1652, #4d1b5e, #5f1f6a, #5f1f6a, #5f1f6a, #5f1f6a, #4d1b5e, #3c1652, #2d1146, #1e0c39);
 }
+.navlinks{
+    text-align: right;
+    color: #fff;
+}
