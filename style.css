@@ -1,7 +1,71 @@
-body{
+/* body{
     background-image: linear-gradient(to left bottom, #1e0c39, #2d1146, #3c1652, #4d1b5e, #5f1f6a, #5f1f6a, #5f1f6a, #5f1f6a, #4d1b5e, #3c1652, #2d1146, #1e0c39);
+} */
+body{
+    background: #020415;
 }
-.navlinks{
+.nav-link{
     text-align: right;
     color: #fff;
+    
+}
+.nftlogo{
+    width: 500px;
+height: 600px;
+}
+.nftpara{
+    font-family: 'M PLUS 1';
+font-style: normal;
+font-weight: 550;
+font-size: 50px;
+line-height: 65px;
+color: #fff;
+padding-top: 8rem;
+}
+.nftclass{
+    color: linear-gradient(270deg, #DA5ED9 73.32%, #6730B0 100%);
+}
+.btnclass{
+    padding-top: 4rem;
+}
+.explorebtn{
+    width: 174px;
+height: 55.77px;
+background: #4C218B;
+border-radius: 10.4103px;
+}
+.newbtn{
+    width: 174px;
+height: 55.77px;
+background-color: transparent;
+border-radius: 10.4103px;
+border: 1px solid #FFFFFF;
+color: #fff;
+}
+.spanborder{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom : 0.5rem;
+    border: 0.74359px solid rgba(255, 255, 255, 0.2);
+}
+.spanborder1{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-bottom : 0.5rem;
+    border: 0.74359px solid rgba(255, 255, 255, 0.2);
+}
+.searchbtn{
+    width: 305px;
+height: 42px;
+
+
+background: rgba(217, 217, 217, 0.12);
+border: 3px solid #FFFFFF;
+backdrop-filter: blur(4.5px);
+border-radius: 15px;
+}
+.tabclass{
+    color: #fff;
+    font-weight: 400;
+font-size: 20px;
 }

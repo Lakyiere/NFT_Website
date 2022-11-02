@@ -15,17 +15,13 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container justify-content-around ">
-        <div class="row">
-            
-                <a class="navbar-brand" href="#"
-          ><img src="images/Group 4.png" alt="logo" width="50"
-        /></a>
-            
-        </div>
+    <nav class="navbar navbar-expand-lg d-none d-lg-block text-light">
+      <div class="container-fluid flex-lg-row justify-content-around">
+        <a class="navbar-brand" href="#"
+          ><img src="images/Group 4.png" alt="logo" width="50" />
+        </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler text-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavAltMarkup"
@@ -35,10 +31,12 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        
-            <div class="collapse navbar-collapse navlinks" id="navbarNavAltMarkup">
-          <div class="navbar-nav ">
-            <a class="nav-link" href="#">Home</a>
+        <div id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#"
+              ><span class="span-class text-light">Home </span></a
+            >
+            
             <a class="nav-link" href="#">About</a>
             <a class="nav-link" href="#">Function</a>
             <a class="nav-link" href="#">Token</a>
@@ -49,32 +47,34 @@
             <a class="nav-link" href="#">Connect Wallet</a>
           </div>
         </div>
-        
       </div>
     </nav>
+
     <!-- Home Banner  -->
 
     <section class="p-5 justify-content-around">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="images/Group 1.png" alt="ntflogo" />
+            <img src="images/Group 1.png" class="nftlogo" alt="ntflogo"/>
           </div>
           <div class="col-lg-6">
-            <p>
+            <p class="nftpara">
               <span class="nftclass">NFTs</span> – the next level of when wealth
-              and <img src="images/Mash group.png" alt="machgroup" /> ignorance
+              and <img src="images/Mask group.png" alt="machgroup" width="90"/> ignorance
               collide.
             </p>
-            <button>Explore</button>
-            <button>New</button>
+            <div class="btnclass">
+            <button class="explorebtn text-light"><span class="border border-top-0 spanborder">Explore</span></button>
+            <button class="newbtn"><span class="border border-top-0 spanborder1">New</span></button>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-6">
-            <button>Search</button>
+            <button class="searchbtn border">Search</button>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 tabclass">
             <div class="row">
               <div class="col">
                 <p>Activity</p>
