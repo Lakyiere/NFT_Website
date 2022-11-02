@@ -73,6 +73,8 @@ text-align: left;
 opacity: 0.15;
 }
 .tabclass{
+    text-decoration: none;
+    text-decoration-color: none;
     color: #fff;
     font-weight: 400;
 font-size: 20px;
