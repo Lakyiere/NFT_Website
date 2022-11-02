@@ -2,8 +2,10 @@
     background-image: linear-gradient(to left bottom, #1e0c39, #2d1146, #3c1652, #4d1b5e, #5f1f6a, #5f1f6a, #5f1f6a, #5f1f6a, #4d1b5e, #3c1652, #2d1146, #1e0c39);
 } */
 body{
-    background: #020415;
+    /* background-image: linear-gradient(to left, #020415, #0d1531, #171e4e, #27276c, #3f2d8a, #3f2d8a, #3f2d8a, #3f2d8a, #27276c, #171e4e, #0d1531, #020415); */
+background: #020415;
 }
+
 .nav-link{
     text-align: right;
     color: #fff;
@@ -16,14 +18,14 @@ height: 600px;
 .nftpara{
     font-family: 'M PLUS 1';
 font-style: normal;
-font-weight: 550;
-font-size: 50px;
-line-height: 65px;
+font-weight: 520;
+font-size: 55px;
+line-height: 69px;
 color: #fff;
 padding-top: 8rem;
 }
 .nftclass{
-    color: linear-gradient(270deg, #DA5ED9 73.32%, #6730B0 100%);
+    text-decoration-color: linear-gradient(270deg, #DA5ED9 73.32%, #6730B0 100%);
 }
 .btnclass{
     padding-top: 4rem;
@@ -33,6 +35,8 @@ padding-top: 8rem;
 height: 55.77px;
 background: #4C218B;
 border-radius: 10.4103px;
+margin-right: 2rem;
+border: none;
 }
 .newbtn{
     width: 174px;
@@ -57,12 +61,16 @@ color: #fff;
 .searchbtn{
     width: 305px;
 height: 42px;
-
-
 background: rgba(217, 217, 217, 0.12);
 border: 3px solid #FFFFFF;
 backdrop-filter: blur(4.5px);
 border-radius: 15px;
+
+}
+.searchspan{
+color: #FFFFFF;
+text-align: left;
+opacity: 0.15;
 }
 .tabclass{
     color: #fff;
