@@ -17,14 +17,18 @@ body {
 .nftpara {
   font-family: "M PLUS 1";
   font-style: normal;
-  font-weight: 520;
-  font-size: 55px;
+  font-weight: 600;
+  font-size: 60px;
   line-height: 69px;
   color: #fff;
-  padding-top: 5.5rem;
+  padding-top: 5rem;
 }
-.nftclass {
-  text-decoration-color: linear-gradient(270deg, #da5ed9 73.32%, #6730b0 100%);
+.nftclass1 {
+  background-image: linear-gradient(270deg, #da5ed9 73.32%, #6730b0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
 .btnclass {
   padding-top: 4rem;
