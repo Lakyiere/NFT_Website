@@ -122,6 +122,12 @@ body {
 }
 .btnsearch{
     text-align: center;
-    
+    margin-bottom: 2rem;  
+}
+.nftlogo{
+    text-align: center;
+    width: 250px;
+    height:300px ;
+    margin: auto;
 }
 }
