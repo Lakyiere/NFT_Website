@@ -102,10 +102,26 @@ body {
   font-size: 40px;
   line-height: 49px;
   padding-left: 1rem;
+  padding-top: 2rem;
 }
 .maskgroup{
     width: 100px;
     height: 50px;
 }
-
+.btnclass{
+    text-align: center;
+    
+}
+.explorebtn{
+    margin: auto;
+    
+}
+.newbtn{
+    margin-top:2rem ;
+    margin-bottom: 2rem;
+}
+.searchbtn{
+    justify-content: center;
+    
+}
 }
