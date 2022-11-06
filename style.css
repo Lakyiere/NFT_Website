@@ -132,6 +132,9 @@ padding-left: 1rem;
 padding-right: 1rem;
   border-radius: 7px; 
  }
+ .searchbtnimg{
+    margin-left: 6rem;
+ }
 /* For Mobile Screen */
 @media screen and (max-width: 800px){
 .navbar-brand{
