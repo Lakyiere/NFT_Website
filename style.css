@@ -74,7 +74,7 @@ body {
 .searchspan {
   color: #ffffff;
   text-align: left;
-  opacity: 0.15;
+  opacity: 0.5;
 }
 .tabclass {
   text-decoration: none;
@@ -169,5 +169,17 @@ padding-right:6rem;
     width: 250px;
     height:300px ;
     margin: auto;
+}
+.navhome{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.searchbtn {
+  width: 255px;
+  height: 42px;
+    
+
 }
 }
