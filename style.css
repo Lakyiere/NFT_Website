@@ -4,6 +4,8 @@
 body {
   /* background-image: linear-gradient(to left, #020415, #0d1531, #171e4e, #27276c, #3f2d8a, #3f2d8a, #3f2d8a, #3f2d8a, #27276c, #171e4e, #0d1531, #020415); */
   background: #020415;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 .nav-link {
@@ -90,14 +92,20 @@ padding-left: 1rem;
 padding-right: 1rem;
   border-radius: 7px;
 }
-.span-class {
-  background-color: #fff;
-  color: #000;
-   padding-top: 0.5rem;
+.navhome {
+  background-color: #4c218b;
+  color: #fff;
+   padding-top: 0.6rem;
   padding-bottom: 0.5rem;
 padding-left: 1rem;
 padding-right: 1rem;
-  border-radius: 7px;
+  /* border-radius: 7px; */
+  text-decoration: none;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.navhome:hover{
+    color: #fff;
 }
 /* .span-class:hover {
   background-color: #fff;
@@ -118,11 +126,11 @@ padding-right: 1rem;
  .nav-link1:hover{
 background-color:#fff;
   color: #000;
-  padding-top: 0.5rem;
+   padding-top: 0.5rem; 
   padding-bottom: 0.5rem;
 padding-left: 1rem;
 padding-right: 1rem;
-  border-radius: 7px;
+  border-radius: 7px; 
  }
 /* For Mobile Screen */
 @media screen and (max-width: 800px){
