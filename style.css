@@ -84,27 +84,51 @@ body {
 .nav-link:hover {
   background-color: #fff;
   color: #000;
-  padding: 0.5rem;
-  border-radius: 0.7px;
+   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+padding-left: 1rem;
+padding-right: 1rem;
+  border-radius: 7px;
 }
 .span-class {
-  color: #fff;
-}
-.span-class:hover {
   background-color: #fff;
   color: #000;
+   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+padding-left: 1rem;
+padding-right: 1rem;
+  border-radius: 7px;
 }
+/* .span-class:hover {
+  background-color: #fff;
+  color: #000;
+} */
 .navbar-toggler-icon {
    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 ;
  }
  .navbar-toggler {
     background-color: transparent;
-    border-color: #ffffff;
-    
+    border-color: #ffffff;  
+ }
+ .nav-link1{
+    text-decoration: none;
+    color: #fff;
+ }
+ .nav-link1:hover{
+background-color:#fff;
+  color: #000;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+padding-left: 1rem;
+padding-right: 1rem;
+  border-radius: 7px;
  }
 /* For Mobile Screen */
 @media screen and (max-width: 800px){
+.navbar-brand{
+padding-right:6rem;
+}
 .nftpara{
     font-weight: 400;
   font-size: 40px;
