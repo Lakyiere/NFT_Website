@@ -8,6 +8,8 @@ This is repo of an NFT website.
 
 ![Screenshot (267)](https://user-images.githubusercontent.com/70054440/200435722-aa91fea2-1ed3-4969-bd06-7879361c3481.png)
 
+# The Responsive UI
+
 ![Screenshot (268)](https://user-images.githubusercontent.com/70054440/200435783-97928dec-cee3-47aa-b808-1c25bf55f85e.png)
 
 ![Screenshot (269)](https://user-images.githubusercontent.com/70054440/200435794-1bd6d74d-65f6-4994-9b79-9c09bb735a1a.png)
