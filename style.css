@@ -186,15 +186,15 @@ padding-right:6rem;
     margin: auto;
 }
 .navhome{
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+   text-align: center;
 }
 .searchbtn {
   width: 255px;
   height: 42px;
-    
-
+}
+.navconnect{
+    padding: 0.4rem;
+    border: 1px solid #ffffff;
+    text-align: center;
 }
 }
